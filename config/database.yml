@@ -24,6 +24,6 @@ production:
   adapter: postgresql
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
-  database: spree_orders_production
+  database: spreecommerc_production
   username: spreecommerc
   password: ''
